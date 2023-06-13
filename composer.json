@@ -1,0 +1,36 @@
+{
+  "name": "optigov/php-xzufi",
+  "type": "library",
+  "description": "A library for parsing and generating XZuFi data.",
+  "homepage": "https://github.com/optiGov/php-xzufi",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "optiGov GmbH",
+      "email": "hallo@optigov.de"
+    }
+  ],
+  "keywords": [
+    "XZuFi",
+    "PHP"
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "9.5.4"
+  },
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "XZuFi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "XZuFi\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit tests"
+  }
+}
